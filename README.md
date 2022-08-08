@@ -1,6 +1,6 @@
 # kafka-golang
 
-Getting started with kafka using golang
+Getting started with kafka using golang  
 
 ### Problem Statement
 
@@ -18,6 +18,7 @@ Getting started with kafka using golang
   - Click [here](https://developer.confluent.io/get-started/go/#kafka-setup) and select "local" for kafka location
   - Copy the content of docker-compose.yml and paste it in the docker-compose.yml file in the project
   - Run the command: ```docker compose up -d```
+  - Run the command ```docker ps``` to verify if the 2 containers mentioned in the `docker-compose.yml` file are running or not
   
 ### Observations
 
