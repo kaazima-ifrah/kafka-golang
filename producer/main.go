@@ -11,9 +11,9 @@ func main() {
 
 	w := &kafka.Writer{
 		Addr:                   kafka.TCP("localhost:9092"),
-		Topic:                  "example-123",
+		Topic:                  "example-topic-123",
 		RequiredAcks:           kafka.RequireAll,
-		AllowAutoTopicCreation: false,
+		AllowAutoTopicCreation: true,
 		Async:                  true,
 		Completion: func(messages []kafka.Message, err error) {
 
